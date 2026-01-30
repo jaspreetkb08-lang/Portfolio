@@ -1,0 +1,123 @@
+    * {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    }
+
+    body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #1f1c2c, #928dab);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .glass-card {
+    width: 760px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(16px);
+    border-radius: 22px;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+
+    .left {
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    background: rgba(0,0,0,0.25);
+    }
+
+    .left img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+    }
+
+    .role {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 15px;
+    }
+
+    audio {
+    width: 100%;
+    }
+
+    .right {
+    width: 60%;
+    padding: 35px;
+    }
+
+    .about {
+    font-size: 15px;
+    line-height: 1.7;
+    opacity: 0.9;
+    }
+
+    .right h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    }
+
+    .skills span {
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.25);
+    margin: 6px 6px 0 0;
+    font-size: 13px;
+    }
+
+    /* SOCIAL LINKS */
+    .socials {
+    margin-top: 10px;
+    }
+
+        .socials {
+    margin-top: 15px;
+    }
+
+    .socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-right: 12px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    }
+
+    .socials a:hover {
+    background: rgba(255,255,255,0.4);
+    transform: translateY(-4px) scale(1.05);
+    }
+
+    .student-intro {
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    .student-intro h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px;
+    }
+
+    .student-intro p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.75);
+    font-style: italic;
+    margin: 0;
+    }
